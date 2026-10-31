@@ -1,0 +1,19 @@
+# Each sub-repo is its own independent git repository. We track only the
+# workspace-level metadata here (README, licensing-matrix.md,
+# decisions, etc.). To work on a sub-repo, cd into it and use its own git.
+proton-webclients-mirror/
+openapi-spec/
+euroton-server/
+euroton-selfhost/
+euroton-imap-bridge/
+euroton-godmode/
+
+# Reference clones (e.g. proton-bridge for when imap-bridge resumes)
+proton-bridge/
+go-proton-api/
+
+# Common noise
+.DS_Store
+*.log
+.idea/
+.vscode/
